@@ -1,0 +1,41 @@
+baseURL = 'https://aetherneo.com/'
+languageCode = 'en-us'
+title = 'AetherNeo LLC'
+theme = 'hello-4s3ti'
+
+[params]
+    defaultTheme = "dark"
+    description = "AetherNeo LLC provides enterprise-grade network security and AI-driven automation solutions."
+    # 這裡修正了之前報錯的 author 格式
+    showPosts = true
+    main_color = "#00ff00"
+    [params.author]
+        name = "AetherNeo Team"
+    
+    [params.logo]
+        logoText = "AetherNeo"
+        logoCursorColor = "#00ff00"
+
+    [params.footer]
+        copyright = true
+        trademark = true
+
+# 直接在這裡定義選單，不要用 [menu] 表頭
+[[menu.main]]
+    name = "Services"
+    url = "/services"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 3
+
+[taxonomies]
+    tag = "tags"
+    category = "blog"

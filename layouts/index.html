@@ -1,0 +1,60 @@
+{{ define "main" }}
+<div class="post" style="animation: fadeIn 1.5s ease-out;">
+    <div class="post-content" style="margin-top: 40px; position: relative;">
+        
+        <div style="position: absolute; top: -100px; left: 50%; transform: translateX(-50%); width: 300px; height: 300px; background: radial-gradient(circle, rgba(0,255,0,0.1) 0%, rgba(0,0,0,0) 70%); z-index: -1; filter: blur(40px);"></div>
+
+        <header style="text-align: center; margin-bottom: 60px;">
+            <h1 style="color: #00ff00; font-size: 4rem; font-weight: 900; letter-spacing: -3px; margin-bottom: 0; line-height: 1; text-shadow: 0 0 20px rgba(0,255,0,0.3);">
+                AETHER<span style="color: #fff; opacity: 0.9;">NEO</span>
+            </h1>
+            <div style="height: 2px; width: 60px; background: #00ff00; margin: 20px auto;"></div>
+            <p style="color: #666; text-transform: uppercase; letter-spacing: 5px; font-size: 0.75rem; font-weight: 600;">
+                SECURE INTELLIGENCE <span style="color: #333;">//</span> OPTIMIZING FUTURE
+            </p>
+        </header>
+
+        <div style="display: grid; grid-template-columns: 1fr; gap: 30px; margin: 50px 0;">
+            
+            <div style="background: linear-gradient(90deg, #111 0%, #0a0a0a 100%); border-left: 4px solid #00ff00; padding: 40px; box-shadow: 10px 10px 30px rgba(0,0,0,0.5);">
+                <p style="font-size: 1.4rem; line-height: 1.6; color: #fff; margin-bottom: 20px; font-weight: 300;">
+                    We are a <span style="color: #00ff00; font-weight: 600;">Tier-1 Technology Consulting</span> firm. 
+                    Specializing in secure network architecture and autonomous AI integration.
+                </p>
+                <p style="color: #888; font-family: monospace; font-size: 0.9rem;">
+                    > SYSTEM STATUS: ONLINE<br>
+                    > GLOBAL ENCRYPTION: ACTIVE<br>
+                    > AI MODELS: DEPLOYED
+                </p>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 30px; border-radius: 2px; backdrop-filter: blur(10px);">
+                <h4 style="color: #00ff00; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 2px; margin-bottom: 20px;">Corporate Identity</h4>
+                <div style="display: grid; grid-template-columns: 100px 1fr; gap: 10px; font-size: 0.9rem;">
+                    <span style="color: #555;">EMAIL:</span> <span style="color: #eee;">info@aetherneo.com</span>
+                    <span style="color: #555;">REGISTRY:</span> <span style="color: #eee;">Sheridan, Wyoming, USA</span>
+                    <span style="color: #555;">ENTITY:</span> <span style="color: #00ff00;">2025-001813735</span>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="/services" style="display: inline-block; padding: 18px 50px; background: transparent; border: 1px solid #00ff00; color: #00ff00; text-decoration: none; font-weight: 700; letter-spacing: 2px; font-size: 0.8rem; box-shadow: 0 0 15px rgba(0,255,0,0.1); transition: all 0.3s ease;">
+                INITIATE PROTOCOL: VIEW SERVICES
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+a:hover {
+    background: #00ff00 !important;
+    color: #000 !important;
+    box-shadow: 0 0 30px rgba(0,255,0,0.4) !important;
+}
+</style>
+{{ end }}
