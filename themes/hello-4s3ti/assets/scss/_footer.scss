@@ -24,6 +24,40 @@
     }
   }
 
+  &__legal-links {
+    padding-bottom: 20px;
+    border-bottom: 1px solid $dark-border-color;
+    margin-bottom: 20px;
+    
+    [data-theme=dark] & {
+      border-bottom-color: $dark-border-color;
+    }
+    
+    [data-theme=light] & {
+      border-bottom-color: $light-border-color;
+    }
+    
+    a {
+      color: #00ff00;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+      
+      &:hover {
+        color: #33ff33;
+        text-decoration: underline;
+      }
+      
+      [data-theme=dark] & {
+        color: #00ff00;
+        
+        &:hover {
+          color: #33ff33;
+        }
+      }
+    }
+  }
+
   &__content {
     display: flex;
     flex-direction: row;

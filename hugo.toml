@@ -19,6 +19,8 @@ theme = 'hello-4s3ti'
     [params.footer]
         copyright = true
         trademark = true
+        topText = ["<a href=\"/privacy\">Privacy Policy</a>", "<a href=\"/terms\">Terms of Service</a>"]
+        bottomText = ["© 2025 Copyright AetherNeo LLC", "30 N Gould St Ste N, Sheridan, WY 82801, USA"]
 
 # 直接在這裡定義選單，不要用 [menu] 表頭
 [[menu.main]]

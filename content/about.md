@@ -12,6 +12,19 @@ AetherNeo LLC is a premier technology consulting firm specializing in enterprise
 
 Based in Sheridan, Wyoming, USA, AetherNeo serves clients across multiple continents, delivering mission-critical technology solutions that protect digital assets and optimize operational workflows. Our team comprises industry veterans with deep expertise in cybersecurity, network architecture, artificial intelligence, and enterprise systems integration.
 
+## Company Information
+
+**Legal Entity**: AetherNeo LLC  
+**Entity Number**: 2025-001813735  
+**Registered Address**: 30 N Gould St Ste N, Sheridan, WY 82801, USA  
+**Business Type**: Limited Liability Company (LLC)  
+**State of Incorporation**: Wyoming, USA  
+**Year Established**: 2025
+
+**Contact Information**  
+Email: info@aetherneo.com  
+Phone: Available upon request
+
 ## Core Values
 
 ### Technical Excellence
