@@ -27,14 +27,24 @@ theme = 'hello-4s3ti'
     weight = 1
 
 [[menu.main]]
+    name = "Capabilities"
+    url = "/capabilities"
+    weight = 2
+
+[[menu.main]]
+    name = "Case Studies"
+    url = "/case-studies"
+    weight = 3
+
+[[menu.main]]
     name = "About"
     url = "/about"
-    weight = 2
+    weight = 4
 
 [[menu.main]]
     name = "Contact"
     url = "/contact"
-    weight = 3
+    weight = 5
 
 [taxonomies]
     tag = "tags"
