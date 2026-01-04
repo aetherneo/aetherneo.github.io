@@ -81,7 +81,7 @@ AetherGhost is a **100% Web-Based Workspace** that provides isolated cloud envir
 
 ## Core Product Logic
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; margin: 40px 0;">
+<div class="core-logic-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; margin: 40px 0;">
 <div style="background: rgba(10,10,10,0.6); border: 1px solid rgba(0,255,0,0.2); padding: 30px; border-radius: 8px; position: relative; overflow: hidden;">
 <div style="position: absolute; top: 20px; right: 20px; width: 60px; height: 60px; opacity: 0.2;">
 <svg viewBox="0 0 100 100" style="width: 100%; height: 100%;">
@@ -114,7 +114,7 @@ AetherGhost is a **100% Web-Based Workspace** that provides isolated cloud envir
 
 ## Three Core Modules
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin: 40px 0;">
+<div class="core-modules-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin: 40px 0;">
 <div style="background: rgba(10,10,10,0.6); border: 1px solid rgba(0,255,0,0.2); padding: 25px; border-radius: 8px; text-align: center; position: relative; overflow: hidden;">
 <div style="position: absolute; top: 15px; right: 15px; width: 50px; height: 50px; opacity: 0.15;">
 <svg viewBox="0 0 100 100" style="width: 100%; height: 100%;">
@@ -375,12 +375,18 @@ Ready to secure your digital identity? Choose a plan that fits your needs and st
 
 @media (max-width: 684px) {
     .pricing-cards {
+        display: grid !important;
         grid-template-columns: 1fr !important;
         gap: 20px !important;
+        width: 100% !important;
+        max-width: 100% !important;
     }
     
     .pricing-card {
         padding: 25px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
     }
     
     .pricing-card-featured {
@@ -391,15 +397,53 @@ Ready to secure your digital identity? Choose a plan that fits your needs and st
 
 /* Core Modules Grid Mobile */
 @media (max-width: 900px) {
-    div[style*="grid-template-columns: repeat(3, 1fr)"]:not(.pricing-cards) {
+    .core-modules-grid {
+        display: grid !important;
         grid-template-columns: 1fr !important;
         gap: 20px !important;
+        width: 100% !important;
+        max-width: 100% !important;
     }
     
-    /* Core Logic Grid Mobile */
-    div[style*="grid-template-columns: repeat(2, 1fr)"] {
+    .core-logic-grid {
+        display: grid !important;
         grid-template-columns: 1fr !important;
         gap: 20px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    .core-modules-grid > div,
+    .core-logic-grid > div {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+}
+
+@media (max-width: 684px) {
+    .core-modules-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 15px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    .core-logic-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 15px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    .core-modules-grid > div,
+    .core-logic-grid > div {
+        padding: 20px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
     }
 }
 </style>
