@@ -20,7 +20,7 @@
 
 <!-- CSS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
-    type="text/css">
+    type="text/css" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) }}
 {{ $style := resources.Get "scss/main.scss" | css.Sass $options | resources.Fingerprint }}
@@ -35,23 +35,23 @@
 {{ if .Site.Params.fontAwesome }}
 {{ with.Site.Params.fontAwesome }}
 {{ if .kitURL }}
-<script src="{{ .kitURL }}" crossorigin="anonymous"></script>
+<script src="{{ .kitURL }}" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 {{ else }}
-<link href="/static/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" />
 {{ if .all }}
-<link href="/static/fontawesome/css/all.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" />
 {{ end }} 
 
 {{ if .brands }} 
-<link href="/static/fontawesome/css/brands.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" />
 {{ end }} 
 
 {{ if .solid }}
-<link href="/static/fontawesome/css/solid.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" />
 {{ end }} 
 
 {{ if .regular }} 
-<link href="/static/fontawesome/css/regular.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/regular.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" />
 {{ end }}
 
 {{ end }}

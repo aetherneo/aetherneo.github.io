@@ -6,7 +6,6 @@ theme = 'hello-4s3ti'
 [params]
     defaultTheme = "dark"
     description = "AetherNeo LLC provides enterprise-grade network security and AI-driven automation solutions."
-    # 這裡修正了之前報錯的 author 格式
     showPosts = true
     main_color = "#00ff00"
     [params.author]
@@ -20,9 +19,9 @@ theme = 'hello-4s3ti'
         copyright = true
         trademark = true
         topText = ["<a href=\"/privacy\">Privacy Policy</a>", "<a href=\"/terms\">Terms of Service</a>"]
-        bottomText = ["© 2025 Copyright AetherNeo LLC", "30 N Gould St Ste N, Sheridan, WY 82801, USA"]
+        bottomText = ["© 2025 Copyright AetherNeo LLC", "Cloud Productivity & Privacy Suite"]
 
-# 直接在這裡定義選單，不要用 [menu] 表頭
+# Define menu items directly here, do not use [menu] header
 [[menu.main]]
     name = "Services"
     url = "/services"
@@ -51,3 +50,8 @@ theme = 'hello-4s3ti'
 [taxonomies]
     tag = "tags"
     category = "blog"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
