@@ -3,27 +3,38 @@
   <rect width="100" height="100" fill="#00ff00"/>
   
   <!-- 终端窗口框架 -->
-  <rect x="10" y="15" width="80" height="70" fill="none" stroke="#0a0a0a" stroke-width="2" rx="2"/>
+  <rect x="15" y="20" width="70" height="60" fill="none" stroke="#0a0a0a" stroke-width="2.5" rx="3"/>
   
   <!-- 终端标题栏 -->
-  <rect x="10" y="15" width="80" height="12" fill="#0a0a0a" opacity="0.3"/>
-  <circle cx="18" cy="21" r="2" fill="#ff5f57"/>
-  <circle cx="26" cy="21" r="2" fill="#ffbd2e"/>
-  <circle cx="34" cy="21" r="2" fill="#28ca42"/>
+  <rect x="15" y="20" width="70" height="12" fill="#0a0a0a" opacity="0.15"/>
+  <circle cx="22" cy="26" r="2" fill="#ff5f57" opacity="0.8"/>
+  <circle cx="30" cy="26" r="2" fill="#ffbd2e" opacity="0.8"/>
+  <circle cx="38" cy="26" r="2" fill="#28ca42" opacity="0.8"/>
   
-  <!-- 终端内容 - 代码行 -->
-  <text x="15" y="38" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.8">&gt; init</text>
-  <text x="15" y="48" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.8">[OK]</text>
-  <text x="15" y="58" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.8">&gt; connect</text>
-  <text x="15" y="68" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.8">[OK]</text>
+  <!-- 终端内容：代码行 -->
+  <text x="20" y="42" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.9">&gt; anonymous</text>
+  <text x="20" y="52" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.7">[OK]</text>
+  <text x="20" y="62" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.9">&gt; connect</text>
+  <text x="20" y="72" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.7">[OK]</text>
   
   <!-- 闪烁的光标 -->
-  <rect x="50" y="72" width="3" height="6" fill="#0a0a0a">
+  <rect x="58" y="74" width="3" height="6" fill="#0a0a0a" opacity="1">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
   
-  <!-- 装饰性代码符号 -->
-  <text x="75" y="35" font-family="monospace" font-size="8" fill="#0a0a0a" opacity="0.3">{</text>
-  <text x="75" y="50" font-family="monospace" font-size="8" fill="#0a0a0a" opacity="0.3">}</text>
-  <text x="75" y="65" font-family="monospace" font-size="8" fill="#0a0a0a" opacity="0.3">;</text>
+  <!-- 周围的二进制字符 -->
+  <text x="8" y="15" font-family="monospace" font-size="5" fill="#0a0a0a" opacity="0.4">0x</text>
+  <text x="8" y="25" font-family="monospace" font-size="5" fill="#0a0a0a" opacity="0.3">1</text>
+  
+  <text x="88" y="15" font-family="monospace" font-size="5" fill="#0a0a0a" opacity="0.3">0x</text>
+  <text x="88" y="25" font-family="monospace" font-size="5" fill="#0a0a0a" opacity="0.4">1</text>
+  
+  <text x="8" y="85" font-family="monospace" font-size="5" fill="#0a0a0a" opacity="0.3">0</text>
+  <text x="8" y="95" font-family="monospace" font-size="5" fill="#0a0a0a" opacity="0.4">1</text>
+  
+  <text x="88" y="85" font-family="monospace" font-size="5" fill="#0a0a0a" opacity="0.4">1</text>
+  <text x="88" y="95" font-family="monospace" font-size="5" fill="#0a0a0a" opacity="0.3">0</text>
+  
+  <!-- 底部代码装饰 -->
+  <text x="50" y="98" font-family="monospace" font-size="5" fill="#0a0a0a" opacity="0.3" text-anchor="middle">$</text>
 </svg>

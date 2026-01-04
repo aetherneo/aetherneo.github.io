@@ -1,11 +1,12 @@
 .post {
   width: 100%;
-  max-width: 800px;
+  max-width: 1400px;
   text-align: left;
-  padding: 20px;
+  padding: 20px 40px;
   margin: 20px auto;
   @media #{$media-size-tablet} {
-    max-width: 600px;
+    max-width: 900px;
+    padding: 20px;
   }
 
   &-date {
