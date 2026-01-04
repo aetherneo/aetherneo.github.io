@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- 背景 -->
+  <rect width="100" height="100" fill="#00ff00"/>
+  
+  <!-- 终端窗口框架 -->
+  <rect x="10" y="15" width="80" height="70" fill="none" stroke="#0a0a0a" stroke-width="2" rx="2"/>
+  
+  <!-- 终端标题栏 -->
+  <rect x="10" y="15" width="80" height="12" fill="#0a0a0a" opacity="0.3"/>
+  <circle cx="18" cy="21" r="2" fill="#ff5f57"/>
+  <circle cx="26" cy="21" r="2" fill="#ffbd2e"/>
+  <circle cx="34" cy="21" r="2" fill="#28ca42"/>
+  
+  <!-- 终端内容 - 代码行 -->
+  <text x="15" y="38" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.8">&gt; init</text>
+  <text x="15" y="48" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.8">[OK]</text>
+  <text x="15" y="58" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.8">&gt; connect</text>
+  <text x="15" y="68" font-family="monospace" font-size="6" fill="#0a0a0a" opacity="0.8">[OK]</text>
+  
+  <!-- 闪烁的光标 -->
+  <rect x="50" y="72" width="3" height="6" fill="#0a0a0a">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- 装饰性代码符号 -->
+  <text x="75" y="35" font-family="monospace" font-size="8" fill="#0a0a0a" opacity="0.3">{</text>
+  <text x="75" y="50" font-family="monospace" font-size="8" fill="#0a0a0a" opacity="0.3">}</text>
+  <text x="75" y="65" font-family="monospace" font-size="8" fill="#0a0a0a" opacity="0.3">;</text>
+</svg>
