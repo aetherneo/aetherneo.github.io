@@ -1,0 +1,44 @@
+# Hugo 构建输出
+/public/
+/resources/_gen/
+
+# Hugo 锁文件
+.hugo_build.lock
+
+# Node 模块（如果使用 npm）
+node_modules/
+package-lock.json
+yarn.lock
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# 临时文件
+*.tmp
+*.log
+*.bak
+
+# 环境变量文件
+.env
+.env.local
+
+# 备份文件
+*.bak
+*.backup
