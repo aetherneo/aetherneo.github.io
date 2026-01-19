@@ -106,15 +106,15 @@ AetherGhost is a **100% Web-Based Workspace** that provides isolated cloud envir
 </svg>
 </div>
 <h3 style="color: #00ff00; margin-bottom: 15px; margin-top: 0;">Exclusive Only</h3>
-<p style="color: #b0b0b0; line-height: 1.6; margin: 0;"><strong style="color: #00ff00;">No Shared Pools.</strong> Every number and every environment is exclusively yours. Each virtual phone number is 100% dedicated to you, ensuring maximum account security.</p>
+<p style="color: #b0b0b0; line-height: 1.6; margin: 0;"><strong style="color: #00ff00;">Fully Isolated.</strong> Every workspace environment is exclusively yours. Complete isolation ensures maximum security and privacy.</p>
 </div>
 </div>
 
 ---
 
-## Three Core Modules
+## Core Features
 
-<div class="core-modules-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin: 40px 0;">
+<div class="core-modules-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px; margin: 40px 0;">
 <div style="background: rgba(10,10,10,0.6); border: 1px solid rgba(0,255,0,0.2); padding: 25px; border-radius: 8px; text-align: center; position: relative; overflow: hidden;">
 <div style="position: absolute; top: 15px; right: 15px; width: 50px; height: 50px; opacity: 0.15;">
 <svg viewBox="0 0 100 100" style="width: 100%; height: 100%;">
@@ -135,36 +135,17 @@ AetherGhost is a **100% Web-Based Workspace** that provides isolated cloud envir
 <div style="background: rgba(10,10,10,0.6); border: 1px solid rgba(0,255,0,0.2); padding: 25px; border-radius: 8px; text-align: center; position: relative; overflow: hidden;">
 <div style="position: absolute; top: 15px; right: 15px; width: 50px; height: 50px; opacity: 0.15;">
 <svg viewBox="0 0 100 100" style="width: 100%; height: 100%;">
-<line x1="20" y1="50" x2="80" y2="50" stroke="#00ff00" stroke-width="2"/>
-<circle cx="30" cy="50" r="8" fill="#00ff00"/>
-<circle cx="50" cy="50" r="8" fill="#00ff00"/>
-<circle cx="70" cy="50" r="8" fill="#00ff00"/>
-<line x1="50" y1="20" x2="50" y2="80" stroke="#00ff00" stroke-width="1.5" stroke-dasharray="3,3"/>
-</svg>
-</div>
-<h3 style="color: #00ff00; margin-bottom: 15px; margin-top: 0; font-size: 1.2rem;">Virtual Phone Number</h3>
-<p style="color: #888; font-size: 0.9rem; margin-bottom: 10px;"><strong style="color: #b0b0b0;">Dedicated virtual phone numbers</strong> for business use.</p>
-<ul style="text-align: left; color: #b0b0b0; font-size: 0.85rem; line-height: 1.8; padding-left: 20px; margin: 0;">
-<li>100% exclusive numbers</li>
-<li>Direct carrier allocation</li>
-<li>2FA verification ready</li>
-</ul>
-</div>
-
-<div style="background: rgba(10,10,10,0.6); border: 1px solid rgba(0,255,0,0.2); padding: 25px; border-radius: 8px; text-align: center; position: relative; overflow: hidden;">
-<div style="position: absolute; top: 15px; right: 15px; width: 50px; height: 50px; opacity: 0.15;">
-<svg viewBox="0 0 100 100" style="width: 100%; height: 100%;">
 <path d="M 20 50 Q 30 30, 50 30 Q 70 30, 80 50 Q 70 70, 50 70 Q 30 70, 20 50" fill="none" stroke="#00ff00" stroke-width="2"/>
 <path d="M 30 50 Q 40 40, 50 40 Q 60 40, 70 50 Q 60 60, 50 60 Q 40 60, 30 50" fill="none" stroke="#00ff00" stroke-width="1.5" stroke-dasharray="2,2"/>
 <circle cx="50" cy="50" r="5" fill="#00ff00"/>
 </svg>
 </div>
-<h3 style="color: #00ff00; margin-bottom: 15px; margin-top: 0; font-size: 1.2rem;">Vortex-Stream</h3>
-<p style="color: #888; font-size: 0.9rem; margin-bottom: 10px;"><strong style="color: #b0b0b0;">Encrypted transmission protocol</strong> built into web spaces.</p>
+<h3 style="color: #00ff00; margin-bottom: 15px; margin-top: 0; font-size: 1.2rem;">Data Security</h3>
+<p style="color: #888; font-size: 0.9rem; margin-bottom: 10px;"><strong style="color: #b0b0b0;">Enterprise-grade security</strong> for all workspace operations.</p>
 <ul style="text-align: left; color: #b0b0b0; font-size: 0.85rem; line-height: 1.8; padding-left: 20px; margin: 0;">
-<li>Enterprise-grade encryption</li>
+<li>Data encryption at rest and in transit</li>
 <li>Secure data transmission</li>
-<li>End-to-end protection</li>
+<li>Compliance-ready architecture</li>
 </ul>
 </div>
 </div>
@@ -173,12 +154,12 @@ AetherGhost is a **100% Web-Based Workspace** that provides isolated cloud envir
 
 ## Pricing Plans
 
-<div class="pricing-cards" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin: 40px 0;">
+<div class="pricing-cards" style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 25px; margin: 40px 0; max-width: 400px; margin-left: auto; margin-right: auto;">
 <!-- Basic Plan Card -->
 <div class="pricing-card" style="background: rgba(10,10,10,0.8); border: 1px solid rgba(0,255,0,0.2); border-radius: 8px; padding: 30px; position: relative; transition: all 0.3s ease;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 15px;">
 <span style="display: inline-block; width: 8px; height: 8px; background: #00ff00; border-radius: 50%;"></span>
-<h3 style="color: #e0e0e0; font-weight: 600; margin: 0; font-size: 1.3rem;">Basic</h3>
+<h3 style="color: #e0e0e0; font-weight: 600; margin: 0; font-size: 1.3rem;">Cloud Workspace</h3>
 </div>
 <div style="margin-bottom: 20px;">
 <div style="color: #00ff00; font-family: monospace; font-size: 2rem; font-weight: 700; margin-bottom: 5px;">$10</div>
@@ -189,70 +170,24 @@ AetherGhost is a **100% Web-Based Workspace** that provides isolated cloud envir
 <strong style="color: #e0e0e0;">Core Features:</strong>
 </div>
 <ul style="color: #b0b0b0; font-size: 0.9rem; line-height: 2; padding-left: 20px; margin: 0;">
-<li>1 Ghost-Space</li>
-<li>Secure Vortex-Stream</li>
+<li>1 Isolated Workspace</li>
+<li>Secure Data Transmission</li>
+<li>24/7 Access</li>
 </ul>
 </div>
-<div style="color: #888; font-size: 0.85rem; font-style: italic;">Minimal office / Light privacy needs</div>
-</div>
-
-<!-- Pro Plan Card (Featured) -->
-<div class="pricing-card pricing-card-featured" style="background: rgba(0,255,0,0.05); border: 2px solid rgba(0,255,0,0.4); border-radius: 8px; padding: 30px; position: relative; box-shadow: 0 0 30px rgba(0,255,0,0.2); transition: all 0.3s ease; transform: scale(1.05);">
-<div style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #00ff00; color: #000; padding: 4px 12px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; white-space: nowrap;">POPULAR</div>
-<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px; margin-top: 10px;">
-<span style="display: inline-block; width: 8px; height: 8px; background: #00ff00; border-radius: 50%; box-shadow: 0 0 8px rgba(0,255,0,0.6);"></span>
-<h3 style="color: #00ff00; font-weight: 700; margin: 0; font-size: 1.3rem;">Pro</h3>
-</div>
-<div style="margin-bottom: 20px;">
-<div style="color: #00ff00; font-family: monospace; font-size: 2.5rem; font-weight: 700; margin-bottom: 5px;">$29</div>
-<div style="color: #888; font-size: 0.9rem;">/ 6 months</div>
-</div>
-<div style="border-top: 1px solid rgba(0,255,0,0.2); padding-top: 20px; margin-bottom: 20px;">
-<div style="color: #b0b0b0; font-size: 0.95rem; line-height: 1.8; margin-bottom: 15px;">
-<strong style="color: #e0e0e0;">Core Features:</strong>
-</div>
-<ul style="color: #b0b0b0; font-size: 0.9rem; line-height: 2; padding-left: 20px; margin: 0;">
-<li>5 Ghost-Spaces</li>
-<li>1 Dedicated US Virtual Phone Number</li>
-<li>Secure Vortex-Stream</li>
-</ul>
-</div>
-<div style="color: #888; font-size: 0.85rem; font-style: italic;">Cross-border e-commerce / Social media management</div>
-</div>
-
-<!-- Elite Plan Card -->
-<div class="pricing-card" style="background: rgba(10,10,10,0.8); border: 1px solid rgba(0,255,0,0.2); border-radius: 8px; padding: 30px; position: relative; transition: all 0.3s ease;">
-<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 15px;">
-<span style="display: inline-block; width: 8px; height: 8px; background: #00ff00; border-radius: 50%;"></span>
-<h3 style="color: #e0e0e0; font-weight: 600; margin: 0; font-size: 1.3rem;">Elite</h3>
-</div>
-<div style="margin-bottom: 20px;">
-<div style="color: #00ff00; font-family: monospace; font-size: 2rem; font-weight: 700; margin-bottom: 5px;">$99</div>
-<div style="color: #888; font-size: 0.9rem;">/ 6 months</div>
-</div>
-<div style="border-top: 1px solid rgba(0,255,0,0.1); padding-top: 20px; margin-bottom: 20px;">
-<div style="color: #b0b0b0; font-size: 0.95rem; line-height: 1.8; margin-bottom: 15px;">
-<strong style="color: #e0e0e0;">Core Features:</strong>
-</div>
-<ul style="color: #b0b0b0; font-size: 0.9rem; line-height: 2; padding-left: 20px; margin: 0;">
-<li>20 Spaces</li>
-<li>3 International Virtual Numbers</li>
-<li>Secure Vortex-Stream</li>
-</ul>
-</div>
-<div style="color: #888; font-size: 0.85rem; font-style: italic;">Enterprise / Heavy-duty studio users</div>
+<div style="color: #888; font-size: 0.85rem; font-style: italic;">Perfect for remote work and digital identity management</div>
 </div>
 </div>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(10,10,10,0.6); border: 1px solid rgba(0,255,0,0.2); border-radius: 8px; text-align: center;">
-<p style="color: #b0b0b0; font-size: 0.95rem; line-height: 1.6; margin: 0;">Our services provide virtual communication tools for business identity management.</p>
+<p style="color: #b0b0b0; font-size: 0.95rem; line-height: 1.6; margin: 0;">Our services provide cloud workspace solutions for business operations and digital identity management.</p>
 </div>
 
 ---
 
-## Business Model: Identity as a Service
+## Business Model: Cloud Workspace as a Service
 
-AetherGhost does not provide temporary "verification code services." We offer **long-term digital identity maintenance solutions**. By binding "numbers, spaces, and networks" within the same semi-annual subscription cycle, we solve the pain points of "unstable environments" and "lost identities" in cross-border business operations.
+AetherGhost provides **long-term cloud workspace solutions** for businesses requiring isolated, secure environments. Our subscription-based model ensures stable, dedicated workspaces for your digital operations.
 
 ---
 
@@ -261,11 +196,11 @@ AetherGhost does not provide temporary "verification code services." We offer **
 ### Service Declaration
 We provide cloud-based workspace solutions with secure connection capabilities for legitimate business operations.
 
-### Exclusivity Proof
-With no shared pools, we perfectly avoid the risk of "numbers being reused by multiple people for illegal activities." Every number has clear subscription records.
+### Workspace Isolation
+Each workspace is completely isolated from others, ensuring your data and operations remain private and secure.
 
-### Financial Risk Control
-Built-in financial keyword filtering actively intercepts any attempts to use numbers for illegal financial account opening.
+### Compliance & Security
+Our infrastructure is designed to meet enterprise security standards and compliance requirements.
 
 ---
 
@@ -273,10 +208,10 @@ Built-in financial keyword filtering actively intercepts any attempts to use num
 
 ✅ **100% Web-Based** - Access from any browser, anywhere  
 ✅ **Zero Installation** - No downloads, no client software  
-✅ **Fully Dedicated** - No shared resources, complete isolation  
-✅ **Enterprise Security** - Military-grade encryption for all operations  
+✅ **Fully Isolated** - Complete workspace isolation for maximum security  
+✅ **Enterprise Security** - Data encryption and secure transmission  
 ✅ **Compliance Ready** - Built for legitimate business use  
-✅ **Cost Effective** - Transparent pricing with 70% gross margins for sustainable service
+✅ **Cost Effective** - Transparent pricing for sustainable service
 
 ---
 
