@@ -12,7 +12,7 @@ AetherGhost provides secure, dedicated virtual workspaces for digital identity m
 
 **Key Features:**
 - **Ghost-Space**: Isolated work containers embedded within web pages
-- **Phantom-Line**: Dedicated identity lines, 100% exclusive (no shared pools)
+- **Virtual Phone Number**: Dedicated virtual phone numbers, 100% exclusive (no shared pools)
 - **Vortex-Stream**: Enterprise-grade encrypted data transmission
 
 [Learn more about AetherGhost →](/aetherghost)
