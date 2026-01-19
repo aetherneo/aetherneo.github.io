@@ -19,7 +19,7 @@ The client required a complete overhaul of their network security infrastructure
 
 - **Network Architecture**: Flat network topology with no segmentation between critical systems (core banking, customer data, public-facing services)
 - **Security Policies**: Inconsistent firewall rules and access controls across 12 branch locations
-- **Remote Access**: Legacy VPN solution could not scale to support 300+ remote employees
+- **Remote Access**: Legacy remote access solution could not scale to support 300+ remote employees
 - **Compliance Gap**: Existing controls did not meet SOC 2 Type II requirements for financial services
 - **Threat Detection**: Limited visibility into network traffic and no automated incident response capabilities
 
@@ -33,9 +33,9 @@ AetherNeo designed and implemented a comprehensive zero-trust network architectu
 - Established DMZ architecture for public-facing web services
 
 **Phase 2: Secure Remote Access (Months 2-4)**
-- Deployed enterprise-grade VPN solution with multi-factor authentication (MFA)
+- Deployed enterprise-grade secure remote access solution with multi-factor authentication (MFA)
 - Implemented role-based access control (RBAC) with least-privilege principles
-- Configured split-tunneling to optimize performance while maintaining security
+- Configured optimized routing to optimize performance while maintaining security
 - Established secure remote access for 300+ employees across 12 branch locations
 
 **Phase 3: Threat Detection & Response (Months 4-6)**

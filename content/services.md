@@ -13,7 +13,7 @@ AetherGhost provides secure, dedicated virtual workspaces for digital identity m
 **Key Features:**
 - **Ghost-Space**: Isolated work containers embedded within web pages
 - **Phantom-Line**: Dedicated identity lines, 100% exclusive (no shared pools)
-- **Vortex-Stream**: Enterprise-grade encryption tunnels
+- **Vortex-Stream**: Enterprise-grade encrypted data transmission
 
 [Learn more about AetherGhost →](/aetherghost)
 
@@ -24,7 +24,7 @@ AetherGhost provides secure, dedicated virtual workspaces for digital identity m
 ### Secure Network Architecture
 We design and implement zero-trust network architectures that protect your critical assets from both external threats and internal vulnerabilities. Our solutions include:
 
-- **Encrypted Tunneling Infrastructure**: Enterprise-grade VPN and secure tunnel solutions for distributed teams and remote operations
+- **Secure Network Infrastructure**: Enterprise-grade secure network connectivity solutions for distributed teams and remote operations
 - **Private Network Protocols**: Custom protocol design for high-security environments requiring isolated communication channels
 - **Network Segmentation**: Strategic network isolation to minimize attack surfaces and contain potential breaches
 - **Intrusion Detection & Prevention**: Advanced monitoring and automated threat response systems

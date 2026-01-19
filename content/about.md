@@ -43,7 +43,7 @@ Our relationships extend beyond project delivery. We serve as trusted technical 
 
 **Network Security & Infrastructure**
 - Zero-trust network architecture
-- Encrypted tunneling and VPN solutions
+- Encrypted network connectivity solutions
 - Private network protocol design
 - Intrusion detection and prevention systems
 - Compliance and security auditing
