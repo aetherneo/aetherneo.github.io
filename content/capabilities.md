@@ -11,7 +11,7 @@ AetherNeo leverages cutting-edge technologies and industry best practices to del
 ## Network Security Technologies
 
 ### Encryption & Cryptography
-- **Protocols**: TLS 1.3, IPSec, WireGuard, OpenVPN
+- **Protocols**: TLS 1.3
 - **Key Management**: Hardware Security Modules (HSM), Key Management Services
 - **Certificate Management**: PKI infrastructure, automated certificate lifecycle management
 - **Cryptographic Standards**: AES-256, RSA, ECC, Post-Quantum Cryptography preparation
